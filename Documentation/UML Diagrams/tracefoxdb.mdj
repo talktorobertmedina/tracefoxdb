@@ -1,0 +1,338 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "TraceFoxDb",
+	"ownedElements": [
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAGHnD1udYoYNec=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "RequirementManagement",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAGHnEH0eYoncQo=",
+					"_parent": {
+						"$ref": "AAAAAAGHnD1udYoYNec="
+					},
+					"name": "Module",
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGHnEo+oYoujHs=",
+							"_parent": {
+								"$ref": "AAAAAAGHnEH0eYoncQo="
+							},
+							"model": {
+								"$ref": "AAAAAAGHnEo+oYosQOQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHnEo+oYovASQ=",
+									"_parent": {
+										"$ref": "AAAAAAGHnEo+oYoujHs="
+									},
+									"font": "Arial;13;1",
+									"left": 88,
+									"top": 189,
+									"width": 119.57177734375,
+									"height": 13,
+									"text": "Requirement"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGHnEo+oYow7UE=",
+									"_parent": {
+										"$ref": "AAAAAAGHnEo+oYoujHs="
+									},
+									"model": {
+										"$ref": "AAAAAAGHnEo+oYosQOQ="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGHnEpcFYo78Q0=",
+											"_parent": {
+												"$ref": "AAAAAAGHnEo+oYow7UE="
+											},
+											"model": {
+												"$ref": "AAAAAAGHnEpb14o47Pc="
+											},
+											"font": "Arial;13;0",
+											"left": 93,
+											"top": 212,
+											"width": 109.57177734375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGHnEqIQYpCebI=",
+											"_parent": {
+												"$ref": "AAAAAAGHnEo+oYow7UE="
+											},
+											"model": {
+												"$ref": "AAAAAAGHnEqIOYo/7ZU="
+											},
+											"font": "Arial;13;0",
+											"left": 93,
+											"top": 227,
+											"width": 109.57177734375,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGHnKVTLIrA8dk=",
+											"_parent": {
+												"$ref": "AAAAAAGHnEo+oYow7UE="
+											},
+											"model": {
+												"$ref": "AAAAAAGHnKVTKIq9lEc="
+											},
+											"font": "Arial;13;0",
+											"left": 93,
+											"top": 242,
+											"width": 109.57177734375,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 88,
+									"top": 207,
+									"width": 119.57177734375,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 184,
+							"width": 119.57177734375,
+							"height": 76,
+							"nameLabel": {
+								"$ref": "AAAAAAGHnEo+oYovASQ="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGHnEo+oYow7UE="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGHnFPt8IqatKk=",
+							"_parent": {
+								"$ref": "AAAAAAGHnEH0eYoncQo="
+							},
+							"model": {
+								"$ref": "AAAAAAGHnFPt8IqY+cA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHnFPt8YqbyWI=",
+									"_parent": {
+										"$ref": "AAAAAAGHnFPt8IqatKk="
+									},
+									"font": "Arial;13;1",
+									"left": 88,
+									"top": 301,
+									"width": 147.0126953125,
+									"height": 13,
+									"text": "Module"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGHnFPt8YqcbC0=",
+									"_parent": {
+										"$ref": "AAAAAAGHnFPt8IqatKk="
+									},
+									"model": {
+										"$ref": "AAAAAAGHnFPt8IqY+cA="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGHnKCEJoqp6w8=",
+											"_parent": {
+												"$ref": "AAAAAAGHnFPt8YqcbC0="
+											},
+											"model": {
+												"$ref": "AAAAAAGHnKCEH4qmvPs="
+											},
+											"font": "Arial;13;0",
+											"left": 93,
+											"top": 324,
+											"width": 137.0126953125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGHnKCZNYqvtq4=",
+											"_parent": {
+												"$ref": "AAAAAAGHnFPt8YqcbC0="
+											},
+											"model": {
+												"$ref": "AAAAAAGHnKCZMoqs1Zs="
+											},
+											"font": "Arial;13;0",
+											"left": 93,
+											"top": 339,
+											"width": 137.0126953125,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 88,
+									"top": 319,
+									"width": 147.0126953125,
+									"height": 38
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 296,
+							"width": 147.0126953125,
+							"height": 61,
+							"nameLabel": {
+								"$ref": "AAAAAAGHnFPt8YqbyWI="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGHnFPt8YqcbC0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGHnEo+oYosQOQ=",
+					"_parent": {
+						"$ref": "AAAAAAGHnD1udYoYNec="
+					},
+					"name": "Requirement",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGHnKaYn4rHZuo=",
+							"_parent": {
+								"$ref": "AAAAAAGHnEo+oYosQOQ="
+							},
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGHnKaYn4rI+qg=",
+								"_parent": {
+									"$ref": "AAAAAAGHnKaYn4rHZuo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGHnEo+oYosQOQ="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGHnKaYn4rJsUg=",
+								"_parent": {
+									"$ref": "AAAAAAGHnKaYn4rHZuo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGHnEo+oYosQOQ="
+								},
+								"cardinality": "0..*"
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGHnEpb14o47Pc=",
+							"_parent": {
+								"$ref": "AAAAAAGHnEo+oYosQOQ="
+							},
+							"name": "ID",
+							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGHnEqIOYo/7ZU=",
+							"_parent": {
+								"$ref": "AAAAAAGHnEo+oYosQOQ="
+							},
+							"name": "Description"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGHnKVTKIq9lEc=",
+							"_parent": {
+								"$ref": "AAAAAAGHnEo+oYosQOQ="
+							},
+							"name": "ModuleID",
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAGHnKCEH4qmvPs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGHnFPt8IqY+cA=",
+					"_parent": {
+						"$ref": "AAAAAAGHnD1udYoYNec="
+					},
+					"name": "Module",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAGHnKbneIrjTNY=",
+							"_parent": {
+								"$ref": "AAAAAAGHnFPt8IqY+cA="
+							},
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGHnKbneIrk3aM=",
+								"_parent": {
+									"$ref": "AAAAAAGHnKbneIrjTNY="
+								},
+								"reference": {
+									"$ref": "AAAAAAGHnFPt8IqY+cA="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAGHnKbneIrlQX8=",
+								"_parent": {
+									"$ref": "AAAAAAGHnKbneIrjTNY="
+								},
+								"reference": {
+									"$ref": "AAAAAAGHnFPt8IqY+cA="
+								},
+								"cardinality": "0..*"
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGHnKCEH4qmvPs=",
+							"_parent": {
+								"$ref": "AAAAAAGHnFPt8IqY+cA="
+							},
+							"name": "ID",
+							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGHnKCZMoqs1Zs=",
+							"_parent": {
+								"$ref": "AAAAAAGHnFPt8IqY+cA="
+							},
+							"name": "ParentModuleID",
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAGHnKCEH4qmvPs="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
